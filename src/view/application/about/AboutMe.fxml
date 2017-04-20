@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.application.about.AboutMeController">
+    <children>
+        <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <HBox alignment="CENTER" prefHeight="517.0" prefWidth="735.0">
+                    <children>
+                        <AnchorPane prefHeight="517.0" prefWidth="689.0">
+                            <children>
+                                <Label alignment="TOP_CENTER" layoutX="184.0" layoutY="195.0" prefHeight="35.0" prefWidth="297.0" text="SmartWMS">
+                                    <font>
+                                        <Font name="System Bold" size="29.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="258.0" layoutY="238.0" text="Innovation Lab Project">
+                                    <font>
+                                        <Font size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="297.0" layoutY="265.0" text="Created By" />
+                                <Label layoutX="240.0" layoutY="290.0" text="Abhishek Kumar" />
+                                <Label layoutX="240.0" layoutY="315.0" text="Ajay Deshmukh" />
+                                <Label layoutX="355.0" layoutY="290.0" text="1501CS03" />
+                                <Label layoutX="355.0" layoutY="315.0" text="1501CS05" />
+                                <ImageView fx:id="imgMyImg" fitHeight="200.0" fitWidth="200.0" layoutX="233.0" layoutY="14.0" pickOnBounds="true" smooth="false" />
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
